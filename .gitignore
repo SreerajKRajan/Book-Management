@@ -1,0 +1,17 @@
+# 🔒 Secret config
+.env
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.log
+
+# 💻 IDE/editor settings (optional)
+.vscode/
+.idea/
+
+# 🔄 Django DB and migrations
+*.db
+*.bak
+*.swp
+*/migrations/__pycache__/
