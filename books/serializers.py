@@ -7,7 +7,7 @@ class BookSerializer(serializers.ModelSerializer):
     class Meta:
         model = Book
         fields = "__all__"
-        read_only_fields = ["uploaded_by, 'uploaded_at"]
+        read_only_fields = ['uploaded_by', 'uploaded_at']
         
 class ReadingListItemSerializer(serializers.ModelSerializer):
     book_title = serializers.ReadOnlyField(source='book.title')
